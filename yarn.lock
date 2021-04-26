@@ -1290,12 +1290,12 @@ axios@*:
     follow-redirects "1.5.10"
     is-buffer "^2.0.2"
 
-axios@0.19.1:
-  version "0.19.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.19.1.tgz#8a6a04eed23dfe72747e1dd43c604b8f1677b5aa"
-  integrity sha512-Yl+7nfreYKaLRvAvjNPkvfjnQHJM1yLBY3zhqAwcJSwR/6ETkanUgylgtIvkvz0xJ+p/vZuNw8X7Hnb7Whsbpw==
+axios@0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
-    follow-redirects "1.5.10"
+    follow-redirects "^1.10.0"
 
 b64@4.x.x:
   version "4.1.2"
@@ -3063,6 +3063,11 @@ follow-redirects@^1.0.0:
   integrity sha512-CRcPzsSIbXyVDl0QI01muNDu69S8trU4jArW9LpOt2WtC6LyUJetcIrmfHsRBx7/Jb6GHJUiuqyYxPooFfNt6A==
   dependencies:
     debug "^3.0.0"
+
+follow-redirects@^1.10.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.14.0.tgz#f5d260f95c5f8c105894491feee5dc8993b402fe"
+  integrity sha512-0vRwd7RKQBTt+mgu87mtYeofLFZpTas2S9zY+jIeuLJMNvudIgF52nr19q40HOwH5RrhWIPuj9puybzSJiRrVg==
 
 foreach@~2.0.1:
   version "2.0.5"
